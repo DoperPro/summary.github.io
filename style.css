@@ -84,11 +84,18 @@ h1{
   transition: 0.2s ease-out;
 }
 @media print and (monochrome) { 
- body { 
- 	font-family: Times, 'Times New Roman', serif; 
- }
- h1 { 
- 	color: black; 
- }
+	body { 
+		font-family: Times, 'Times New Roman', serif; 
+	}
+	h1 { 
+		color: black; 
+	}
 }
-
+@media print{
+	button{
+		display: none;
+	}
+	input{
+		display: none;
+	}
+}
