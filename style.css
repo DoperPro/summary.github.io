@@ -94,5 +94,16 @@ h1{
 		color: black; 
 	}
 }
+@media print{
+	button{
+		display: none;
+	}
+	input{
+    border-style: none;
+    box-shadow: none;
+    color:black;
+	}
+}
+
 
 
