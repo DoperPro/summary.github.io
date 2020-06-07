@@ -46,5 +46,7 @@ function add_edu() {
 							name="Year_of_ending" id="Year_of_ending"></li>
 				</ul>
 `;
+    console.log(tmp);
+    
     edu_clone.append(tmp);
 }
