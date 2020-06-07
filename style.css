@@ -35,9 +35,13 @@ input {
   color: #636466;
   padding: 6px;
   margin-top: 15px;
+  text-align: center;
 }
 h1{
 	text-align: center;
+}
+.Information{
+  text-align: center;
 }
 .search button[type=submit]{
   margin: 15px;
@@ -74,14 +78,13 @@ h1{
 	}
 }
 @media print{
-	button{
-		display: none;
-	}
+  input[type="button"]{
+    display: none;
+  }
 	input{
     border-style: none;
     box-shadow: none;
     color:black;
-    display: none;
 	}
 }
 
