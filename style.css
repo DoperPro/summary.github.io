@@ -18,6 +18,9 @@ form{
   align-self: center;
   align-content: center;
 }
+li {
+  list-style-type: none;
+}
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
   -webkit-appearance: none;
@@ -48,4 +51,26 @@ input {
   border-radius: 5px;
   background: #234361;
   padding: 0;
+}
+.button-back{
+  margin: 0 0 0 15px;
+  font-weight: 700;
+  text-decoration: none;
+  color: #234361;
+  text-transform: uppercase;
+  letter-spacing: 1.6px;
+
+  display: inline-block;
+
+  border-width: 2px;
+  border-color: #234361;
+  border-style: solid;
+  border-radius: 50px;
+
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-left: 17px;
+  padding-right: 17px;
+
+  transition: 0.2s ease-out;
 }
