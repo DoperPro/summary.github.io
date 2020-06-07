@@ -37,11 +37,24 @@ input {
   margin-top: 15px;
   text-align: center;
 }
+span{
+  margin-top: 15px;
+}
 h1{
 	text-align: center;
 }
 .Information{
   text-align: center;
+}
+.educational_institution_1 span{
+  display: block;
+  float: left;
+  width: 320px;
+}
+.experience_1 span{
+  display: block;
+  float: left;
+  width: 320px;
 }
 .search button[type=submit]{
   margin: 15px;

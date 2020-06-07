@@ -35,16 +35,14 @@ function add_edu() {
     <div class="educational_institution">
 					<h1 id="edu_h1">Образовательное учреждение #${счетчик}<h1>
 				</div>
+				<div class="educational_institution_1">
 				<ul>
-					<li><span>Уровень образования </span><input type="text" name="The_level_of_education"
-							id="The_level_of_education" pattern="^[А-Яа-яЁё]+$"></li>
-					<li><span>Учебное заведение </span><input type="text" name="Educational_institution"
-							id="Educational_institution" pattern="^[А-Яа-яЁё]+$"></li>
-					<li><span>Специализация </span><input type="text" name="Specialization" id="Specialization"
-							pattern="^[А-Яа-яЁё]+$"></li>
-					<li><span>Год окончания </span><input type="tel" pattern="[0-9]{4}" maxlength="4"
-							name="Year_of_ending" id="Year_of_ending"></li>
+					<li><span>Уровень образования </span><input type="text" name="The_level_of_education" id="The_level_of_education" pattern="^[А-Яа-яЁё]+$"></li>
+					<li><span>Учебное заведение </span><input type="text" name="Educational_institution" id="Educational_institution" pattern="^[А-Яа-яЁё]+$"></li>
+					<li><span>Специализация </span><input type="text" name="Specialization" id="Specialization" pattern="^[А-Яа-яЁё]+$"></li>
+					<li><span>Год окончания </span><input type="tel" pattern="[0-9]{4}" maxlength="4" name="Year_of_ending" id="Year_of_ending"></li>
 				</ul>
+				</div>
     `;
     счетчик += 1;
     
