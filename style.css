@@ -51,8 +51,18 @@ h1{
   background: #234361;
   padding: 0;
 }
+.search input[type=button]{
+	margin: 15px;
+	margin-top: 30px;
+	width: 230px;
+	height: 40px;
+	border: none;
+	color: #fff;
+	font-size: 18px;
+	border-radius: 5px;
+	background: #234361;
+}
 .button-back{
-  margin: 0 0 0 15px;
   font-weight: 700;
   text-decoration: none;
   color: #234361;
@@ -81,3 +91,4 @@ h1{
  	color: black; 
  }
 }
+
