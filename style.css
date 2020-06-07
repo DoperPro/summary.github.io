@@ -36,8 +36,7 @@ input {
   padding: 6px;
   margin-top: 15px;
 }
-.User_Information{
-	font: 18px "Helvetica Neue", Helvetica, Arial, sans-serif;
+h1{
 	text-align: center;
 }
 .search button[type=submit]{
@@ -73,4 +72,12 @@ input {
   padding-right: 17px;
 
   transition: 0.2s ease-out;
+}
+@media print and (monochrome) { 
+ body { 
+ 	font-family: Times, 'Times New Roman', serif; 
+ }
+ h1 { 
+ 	color: black; 
+ }
 }
